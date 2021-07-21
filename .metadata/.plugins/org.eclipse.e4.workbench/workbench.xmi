@@ -39,9 +39,12 @@
           <tags>persp.newWizSC:org.knime.workbench.explorer.view.actions.NewWorkflowWizard</tags>
           <tags>persp.newWizSC:org.knime.workbench.explorer.view.actions.NewWorkflowGroupWizard</tags>
           <tags>persp.viewSC:com.knime.workbench.hubview</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_pPTzAehWEeuZXs3hQEQU7g" selectedElement="_pPTzAuhWEeuZXs3hQEQU7g" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_pPTzAuhWEeuZXs3hQEQU7g" containerData="3000" selectedElement="_pPTzBehWEeuZXs3hQEQU7g">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_pPTzAuhWEeuZXs3hQEQU7g" containerData="3000" selectedElement="_pPTzA-hWEeuZXs3hQEQU7g">
               <children xsi:type="basic:PartStack" xmi:id="_pPTzA-hWEeuZXs3hQEQU7g" elementId="org.knime.workbench.explorer.viewMStack" containerData="3000" selectedElement="_pPTzBOhWEeuZXs3hQEQU7g">
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_pPTzBOhWEeuZXs3hQEQU7g" elementId="org.knime.workbench.explorer.view" ref="_pPL3MOhWEeuZXs3hQEQU7g" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:KNIME Views</tags>
@@ -55,7 +58,6 @@
                   </children>
                 </children>
                 <children xsi:type="basic:PartStack" xmi:id="_pPTzCOhWEeuZXs3hQEQU7g" elementId="org.knime.workbench.repository.view.RepositoryViewMStack" containerData="8000" selectedElement="_pPTzCehWEeuZXs3hQEQU7g">
-                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_pPTzCehWEeuZXs3hQEQU7g" elementId="org.knime.workbench.repository.view.RepositoryView" ref="_pPO6gOhWEeuZXs3hQEQU7g" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:KNIME Views</tags>
@@ -142,9 +144,11 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_pPL3MOhWEeuZXs3hQEQU7g" elementId="org.knime.workbench.explorer.view" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="KNIME Explorer" iconURI="platform:/plugin/org.knime.workbench.explorer.view/icons/knime_explorer.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.knime.workbench.explorer.view.ExplorerView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.knime.workbench.explorer.view"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view>&#xA;&lt;content expandedElements=&quot;LOCAL|LOCAL|LOCAL&quot;/>&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view>&#xA;&lt;content expandedElements=&quot;LOCAL&quot;/>&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:KNIME Views</tags>
+      <tags>activeOnClose</tags>
+      <tags>active</tags>
       <menus xmi:id="_pUvFkOhWEeuZXs3hQEQU7g" elementId="org.knime.workbench.explorer.view">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -157,7 +161,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:KNIME Views</tags>
-      <tags>active</tags>
       <tags>activeOnClose</tags>
       <menus xmi:id="_pZMu0OhWEeuZXs3hQEQU7g" elementId="org.knime.workbench.repository.view.RepositoryView">
         <tags>ViewMenu</tags>
